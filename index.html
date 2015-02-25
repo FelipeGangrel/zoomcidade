@@ -1,0 +1,260 @@
+<html>
+	<head>
+		
+		<link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+		<link type="text/css" rel="stylesheet" href="css/custom.css"  media="screen,projection"/>
+
+		
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+		<meta charset="utf-8">
+	</head>
+
+	<body>
+
+		<div id="busca" class="modal">
+			<div class="modal-content">
+				<form action="">
+					<div class="row">
+						<div class="input-field col s12 m6">
+							<input id="first_name" type="text" class="validate">
+							<label for="first_name">Buscar por</label>
+						</div>
+						<div class="col s12 m6">
+							<select>
+								<option value="" selected>Barra do Piraí</option>
+								<option value="1">Volta Redonda</option>
+								<option value="2">Vassouras</option>
+								<option value="3">Mendes</option>
+								<option value="4">Mendes do Norte</option>
+								<option value="5">Mendes do Sul</option>
+								<option value="6">Mendes from hell</option>
+							</select>
+						</div>
+					</div>
+				</form>
+			</div>
+			<div class="modal-footer">
+				<a href="#" class="waves-effect waves-green btn-flat modal-action modal-close">Buscar</a>
+			</div>
+		</div>
+
+		<ul id="user-menu" class="dropdown-content">
+			<li><a href="#"><i class="mdi-action-view-module left"></i>Meu Painel</a></li>
+			<li><a href="#">Sair</a></li>
+		</ul>
+
+		<nav class="orange">
+			<div class="nav-wrapper container">
+				<div class="col s12">
+					<a href="#" data-activates="mobile-menu" class="button-collapse"><i class="mdi-navigation-menu"></i></a>
+					<a href="#!" class="brand-logo"><img src="img/logo.png" width="240px" alt=""></a>
+
+					<ul class="right hide-on-med-and-down">
+						<li><a href="#busca" class="modal-trigger"><i class="mdi-action-search"></i></a></li>
+						<li><a class="dropdown-button" href="#!" data-activates="user-menu"><i class="mdi-action-account-box left"></i>Felipe Gangrel<i class="mdi-navigation-arrow-drop-down right"></i></a></li>
+					</ul>
+
+					<ul class="side-nav" id="mobile-menu">
+						<li><a href="#busca" class="modal-trigger"><i class="mdi-action-search left"></i>Buscar</a></li>
+						<li><a href="#"><i class="mdi-action-view-module left"></i>Meu Painel</a></li>
+						<li><a href="#">Sair</a></li>
+					</ul>
+
+				</div>
+			</div>
+		</nav>
+
+		<div class="row">
+			<div class="col s12">
+
+				<div class="meu-slider">
+
+					<div class="slider">
+						<ul class="slides">							
+							<li>
+								<img src="http://lorempixel.com/1200/600/food/2">
+								<div class="caption left-align">
+									<h3>Restaurante Rota 66</h3>
+									<h5 class="light grey-text text-lighten-3">Pudding marzipan chocolate cupcake chocolate cake pastry sesame snaps chupa chups powder.</h5>
+									<a class="waves-effect waves-light btn red">Ver oferta</a>
+								</div>
+							</li>
+							<li>
+								<img src="http://lorempixel.com/1200/600/technics/4">
+								<div class="caption right-align">
+									<h3>Seu Madruga Assistência Técnica</h3>
+									<h5 class="light grey-text text-lighten-3">Powder toffee chocolate bar gummies wafer marzipan croissant. Pie marzipan toffee lemon drops chocolate bonbon icing dragée</h5>
+									<a class="waves-effect waves-light btn blue">Conheça</a>
+								</div>
+							</li>
+							<li>
+								<img src="http://lorempixel.com/1200/600/business/4">
+								<div class="caption center-align">
+									<h3>Guidance Consultoria</h3>
+									<h5 class="light grey-text text-lighten-3">Dessert caramels chupa chups gummies pastry macaroon cookie chupa chups gummi bears.</h5>
+									<a class="waves-effect waves-light btn green">Ver oferta</a>
+								</div>
+							</li>
+						</ul>
+					</div>
+
+				</div>
+
+			</div>
+		</div>
+
+
+		<div class="row">
+			<div class="col s12 l4 m6">
+				<div class="card">
+					<div class="card-image waves-effect waves-block waves-light">
+						<img class="activator" src="http://lorempixel.com/600/300/food/3">
+					</div>
+					<div class="card-content">
+						<span class="card-title activator grey-text text-darken-4">Bares e restaurantes<i class="mdi-navigation-more-vert right"></i></span>
+					<p>Bares, pubs e restaurantes com o melhor da gastronomia local</p>
+					</div>
+					<div class="card-reveal">
+						<span class="card-title grey-text text-darken-4">Bares e restaurantes<i class="mdi-navigation-close right"></i></span>
+						<p><img src="img/5-star.png" alt=""><a href="" class="normal">Angry Teostra Pub</a></p>
+						<p><img src="img/5-star.png" alt=""><a href="" class="normal">Kushieda Comida Japonesa</a></p>
+						<p><img src="img/5-star.png" alt=""><a href="" class="normal">Restaurante da Praça</a></p>
+						<p><img src="img/5-star.png" alt=""><a href="" class="normal">Restaurante da Dona Florinda</a></p>
+						<p><img src="img/4-star.png" alt=""><a href="" class="normal">Tienda del Chavo</a></p>	
+						<p><a href="">Ver todos</a></p>	
+					</div>
+				</div>
+			</div>
+			
+			<div class="col s12 l4 m6">
+				<div class="card">
+					<div class="card-image waves-effect waves-block waves-light">
+						<img class="activator" src="http://lorempixel.com/600/300/city/6">
+					</div>
+					<div class="card-content">
+						<span class="card-title activator grey-text text-darken-4">Hotéis e viagens<i class="mdi-navigation-more-vert right"></i></span>
+					<p>Hotéis, pousadas, agências de turismo e transporte com o melhor destino pra você</p>
+					</div>
+					<div class="card-reveal">
+						<span class="card-title grey-text text-darken-4">Hotéis e viagens<i class="mdi-navigation-close right"></i></span>
+						<p><img src="img/5-star.png" alt=""><a href="" class="normal">Hotel Lunastra</a></p>
+						<p><img src="img/5-star.png" alt=""><a href="" class="normal">Pousada dos Bardos</a></p>
+						<p><img src="img/4-star.png" alt=""><a href="" class="normal">Hotel Fazenda Pokke Village</a></p>
+						<p><img src="img/4-star.png" alt=""><a href="" class="normal">Museu de Dundorma</a></p>
+						<p><img src="img/3-star.png" alt=""><a href="" class="normal">Hall da Guilda de Yokumo</a></p>	
+						<p><a href="">Ver todos</a></p>	
+					</div>
+				</div>
+			</div>
+			
+			<div class="col s12 l4 m6">
+				<div class="card">
+					<div class="card-image waves-effect waves-block waves-light">
+						<img class="activator" src="http://lorempixel.com/600/300/people/1">
+					</div>
+					<div class="card-content">
+						<span class="card-title activator grey-text text-darken-4">Saúde e estética<i class="mdi-navigation-more-vert right"></i></span>
+					<p>Clínicas, academias, Spas e salões de beleza que vão te coisar</p>
+					</div>
+					<div class="card-reveal">
+						<span class="card-title grey-text text-darken-4">Saúde e estética<i class="mdi-navigation-close right"></i></span>
+						<p><img src="img/5-star.png" alt=""><a href="" class="normal">Hotel Lunastra</a></p>
+						<p><img src="img/5-star.png" alt=""><a href="" class="normal">Pousada dos Bardos</a></p>
+						<p><img src="img/4-star.png" alt=""><a href="" class="normal">Hotel Fazenda Pokke Village</a></p>
+						<p><img src="img/4-star.png" alt=""><a href="" class="normal">Museu de Dundorma</a></p>
+						<p><img src="img/3-star.png" alt=""><a href="" class="normal">Hall da Guilda de Yokumo</a></p>	
+						<p><a href="">Ver todos</a></p>	
+					</div>
+				</div>
+			</div>
+			
+			<div class="col s12 l4 m6">
+				<div class="card">
+					<div class="card-image waves-effect waves-block waves-light">
+						<img class="activator" src="http://lorempixel.com/600/300/food/3">
+					</div>
+					<div class="card-content">
+						<span class="card-title activator grey-text text-darken-4">Bares e restaurantes<i class="mdi-navigation-more-vert right"></i></span>
+					<p>Bares, pubs e restaurantes com o melhor da gastronomia local</p>
+					</div>
+					<div class="card-reveal">
+						<span class="card-title grey-text text-darken-4">Bares e restaurantes<i class="mdi-navigation-close right"></i></span>
+						<p><img src="img/5-star.png" alt=""><a href="" class="normal">Angry Teostra Pub</a></p>
+						<p><img src="img/5-star.png" alt=""><a href="" class="normal">Kushieda Comida Japonesa</a></p>
+						<p><img src="img/5-star.png" alt=""><a href="" class="normal">Restaurante da Praça</a></p>
+						<p><img src="img/5-star.png" alt=""><a href="" class="normal">Restaurante da Dona Florinda</a></p>
+						<p><img src="img/4-star.png" alt=""><a href="" class="normal">Tienda del Chavo</a></p>	
+						<p><a href="">Ver todos</a></p>	
+					</div>
+				</div>
+			</div>
+			
+			<div class="col s12 l4 m6">
+				<div class="card">
+					<div class="card-image waves-effect waves-block waves-light">
+						<img class="activator" src="http://lorempixel.com/600/300/city/6">
+					</div>
+					<div class="card-content">
+						<span class="card-title activator grey-text text-darken-4">Hotéis e viagens<i class="mdi-navigation-more-vert right"></i></span>
+					<p>Hotéis, pousadas, agências de turismo e transporte com o melhor destino pra você</p>
+					</div>
+					<div class="card-reveal">
+						<span class="card-title grey-text text-darken-4">Hotéis e viagens<i class="mdi-navigation-close right"></i></span>
+						<p><img src="img/5-star.png" alt=""><a href="" class="normal">Hotel Lunastra</a></p>
+						<p><img src="img/5-star.png" alt=""><a href="" class="normal">Pousada dos Bardos</a></p>
+						<p><img src="img/4-star.png" alt=""><a href="" class="normal">Hotel Fazenda Pokke Village</a></p>
+						<p><img src="img/4-star.png" alt=""><a href="" class="normal">Museu de Dundorma</a></p>
+						<p><img src="img/3-star.png" alt=""><a href="" class="normal">Hall da Guilda de Yokumo</a></p>	
+						<p><a href="">Ver todos</a></p>	
+					</div>
+				</div>
+			</div>
+			
+			<div class="col s12 l4 m6">
+				<div class="card">
+					<div class="card-image waves-effect waves-block waves-light">
+						<img class="activator" src="http://lorempixel.com/600/300/people/1">
+					</div>
+					<div class="card-content">
+						<span class="card-title activator grey-text text-darken-4">Saúde e estética<i class="mdi-navigation-more-vert right"></i></span>
+					<p>Clínicas, academias, Spas e salões de beleza que vão te coisar</p>
+					</div>
+					<div class="card-reveal">
+						<span class="card-title grey-text text-darken-4">Saúde e estética<i class="mdi-navigation-close right"></i></span>
+						<p><img src="img/5-star.png" alt=""><a href="" class="normal">Hotel Lunastra</a></p>
+						<p><img src="img/5-star.png" alt=""><a href="" class="normal">Pousada dos Bardos</a></p>
+						<p><img src="img/4-star.png" alt=""><a href="" class="normal">Hotel Fazenda Pokke Village</a></p>
+						<p><img src="img/4-star.png" alt=""><a href="" class="normal">Museu de Dundorma</a></p>
+						<p><img src="img/3-star.png" alt=""><a href="" class="normal">Hall da Guilda de Yokumo</a></p>	
+						<p><a href="">Ver todos</a></p>	
+					</div>
+				</div>
+			</div>
+			
+			
+			
+		</div>
+
+
+
+		<!--Import jQuery before materialize.js-->
+		<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+		<script type="text/javascript" src="js/materialize.min.js"></script>
+
+		<script>
+			$(function(){
+				$(".button-collapse").sideNav();
+				$(".dropdown-button").dropdown({
+					hover: false,
+				});
+				$('.modal-trigger').leanModal();
+				$('select').material_select();
+				$('.datepicker').pickadate();
+				$('.slider').slider({
+					full_width: true,
+					indicators: true,
+				});
+			});
+		</script>
+	</body>
+</html>
