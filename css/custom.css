@@ -17,6 +17,15 @@
 	text-shadow: none;
 }
 
+@media only screen and (max-width: 600px){
+	.caption h3{
+		font-size: 2rem;
+	}
+	.caption h5{
+		font-size: 1.3rem;
+	}
+}
+
 a.normal{
 	text-transform:none !important;
 	color: #666;
