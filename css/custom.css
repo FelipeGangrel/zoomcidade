@@ -18,6 +18,10 @@
 }
 
 @media only screen and (max-width: 600px){
+	.caption{
+		top: 5%!important;
+		left: 5%!important;
+	}
 	.caption h3{
 		font-size: 2rem;
 	}
