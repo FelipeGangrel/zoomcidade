@@ -1,3 +1,6 @@
+html, body{
+	background-color: #f3f3f3;
+}
 .minha-nav ul li a, .minha-nav .brand-logo, .minha-nav .button-collapse{
 	color: #999;
 }
@@ -15,6 +18,24 @@
 }
 .caption .btn{
 	text-shadow: none;
+}
+p.opiniao{
+	font-style: italic;
+	padding: 10px 0 10px 0;
+	color: #666!important;
+}
+img.avatar{
+	border-radius: 50%;
+	border: 1px solid #e5e5e5;
+	margin-top: 20px;
+	max-width: 100%;
+}
+
+.limite{
+	white-space: nowrap; 
+  width: inherit; 
+  overflow: hidden;
+  text-overflow: ellipsis; 
 }
 
 @media only screen and (max-width: 600px){
