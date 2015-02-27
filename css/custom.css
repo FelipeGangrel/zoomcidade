@@ -1,12 +1,33 @@
 html, body{
 	background-color: #f3f3f3;
 }
+@media only screen and (max-width : 992px) {
+	.container {
+		width: 100%; 
+	}
+}
+@media only screen and (min-width : 993px) {
+	.container {
+		width: 95%; 
+	}
+}
+#mapa{
+    width: 100%;
+		height: 200px;
+    background-color: #333;
+    position: relative;
+}
+
+img{
+	max-width: 100%;
+}
 .minha-nav ul li a, .minha-nav .brand-logo, .minha-nav .button-collapse{
 	color: #999;
 }
-.meu-slider{
-	margin-top: 15px;
+nav{
+	margin-bottom: 25px;
 }
+
 .caption{
 	text-shadow: 2px 2px 2px rgba(0,0,0,.7);
 	/*bottom: 0!important;
@@ -26,16 +47,16 @@ p.opiniao{
 }
 img.avatar{
 	border-radius: 50%;
-	border: 1px solid #e5e5e5;
+	border: 1px solid #f3f3f3;
 	margin-top: 20px;
 	max-width: 100%;
 }
 
 .limite{
 	white-space: nowrap; 
-  width: inherit; 
-  overflow: hidden;
-  text-overflow: ellipsis; 
+	width: inherit; 
+	overflow: hidden;
+	text-overflow: ellipsis; 
 }
 
 @media only screen and (max-width: 600px){
